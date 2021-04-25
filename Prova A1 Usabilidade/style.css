@@ -1,0 +1,58 @@
+body, header,
+main {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 1000px;
+    height: 100vh;
+    font-family: 'montserrat';
+    background-color:whitesmoke;
+}
+
+h1, h2 {
+    color: red;
+}
+
+footer {
+    background-color: red;
+    color: white;
+}
+
+
+
+.imagem {
+    width: 200px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+section.form{
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 50px;
+    align-items: center;
+    background-color: red;
+
+    padding: 16px 64px;
+    border-radius: 36px;
+}
+
+form.input{
+    width: auto;
+    margin-bottom: 4px;
+    padding: 10px 18px;
+    border-radius: 36px;
+    
+}
+
+input{
+    border-radius: 36px;
+}
